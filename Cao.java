@@ -41,5 +41,4 @@ public class Cao {
 			System.out.println("Au, Au!");
 		}
 	}
-
 }
