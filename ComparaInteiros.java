@@ -5,17 +5,16 @@ import java.util.Map;
 
 public class ComparaInteiros implements Comparator<Integer>{
 
-	Map<Integer, String> base;
+    Map<Integer, String> base;
 	
     public ComparaInteiros(Map<Integer,String> base) {
-		this.base = base;
+	this.base = base;
 		
 	}
-	@Override
-	public int compare(Integer o1, Integer o2) {
-		return base.get(o1).compareTo(base.get(o2));
-	}
 	
+     @Override
+     public int compare(Integer o1, Integer o2) {
+	return base.get(o1).compareTo(base.get(o2));
+     }
 
-	
 }
