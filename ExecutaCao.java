@@ -12,7 +12,7 @@ public class ExecutaCao {
 		cao1.latir();
 	
 		Cao cao2 = new Cao();
-		cao2.nome = "Neguinha";
+		cao2.nome = ("Neguinha");
 		cao2.corDosOlhos = "preto";
 		cao2.peso = 15;
 		cao2.quantidadeDePatas = 4;
