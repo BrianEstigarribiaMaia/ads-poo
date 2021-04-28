@@ -11,7 +11,7 @@ public class ExecutaComparaInteiros {
 	public static void main(String[] args) {
 		Map<Integer, String> mapaNomes = new HashMap<Integer, String>();
 		
-		mapaNomes.put(1, "Jo„o");
+		mapaNomes.put(1, "Jo√£o");
 		mapaNomes.put(2, "Paulo");
 		mapaNomes.put(3, "Karla");
 		
@@ -25,7 +25,7 @@ public class ExecutaComparaInteiros {
 			System.out.println(entry.getKey() + "\t"+ entry.getValue());
 		}
 		
-		System.out.println("\nPosiÁ„o 2 do Map : " + mapaNomes.get(2));
+		System.out.println("\nPosi√ß√£o 2 do Map : " + mapaNomes.get(2));
 		
 	}
 }
