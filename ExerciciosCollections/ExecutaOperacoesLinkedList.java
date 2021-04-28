@@ -10,7 +10,7 @@ public class ExecutaOperacoesLinkedList {
 		nomes.add("Carolina");
 		nomes.add("Pedro");
 		nomes.add("Felipe");
-		nomes.add("Kévin");
+		nomes.add("KÃ©vin");
 		
 		System.out.println("Iterar sobre a lista de nomes: ");
 		for(String nome: nomes){
@@ -27,7 +27,7 @@ public class ExecutaOperacoesLinkedList {
 		System.out.println(nomes);
 		System.out.println("-------------------------------");
 		
-		System.out.println("Adicionar nome Ana na primeira posição e Eduardo na ultima: ");
+		System.out.println("Adicionar nome Ana na primeira posiÃ§Ã£o e Eduardo na ultima: ");
 		nomes.addFirst("Ana");
 		nomes.addLast("Eduardo");
 		System.out.println(nomes);
@@ -38,9 +38,9 @@ public class ExecutaOperacoesLinkedList {
 		System.out.println("Primeiro nome: " +nomes.getLast());
 		System.out.println("-------------------------------");
 		
-		System.out.println("Mostrar nomes e suas posições: ");
+		System.out.println("Mostrar nomes e suas posiÃ§Ãµes: ");
 		for(int posicao = 0; posicao <nomes.size(); posicao++){
-			System.out.println("Nome na posição: "+posicao+ " é " +nomes.get(posicao));
+			System.out.println("Nome na posiÃ§Ã£o: "+posicao+ " Ã© " +nomes.get(posicao));
 		}
 		System.out.println("-------------------------------");
 		
@@ -49,7 +49,7 @@ public class ExecutaOperacoesLinkedList {
 		System.out.println(nomes);
 		System.out.println("-------------------------------");
 		
-		System.out.println("Trocar nomes Carolina e Kévin de posição : ");
+		System.out.println("Trocar nomes Carolina e KÃ©vin de posiÃ§Ã£o : ");
 		Collections.swap(nomes, 1, 5);
 		System.out.println(nomes);
 		System.out.println("-------------------------------");
