@@ -19,7 +19,7 @@ public class ManipuladorDeArquivos {
 	
 	public static void ExibirCaminhoDoArquivo(String caminhdoDoArquivo){
 		File arquivo = new File(caminhdoDoArquivo);
-		System.out.println("Conteudo do diretório: ");
+		System.out.println("Conteudo do diretÃ³rio: ");
 		String diretorio [] = arquivo.list();
 		
 		for(String item: diretorio){
