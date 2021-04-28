@@ -13,7 +13,7 @@ public class ExecutaOperacoesMap {
 		mapaDB.put(4, "MongoDB");
 		
 		/*entrySet() - Retorna um conjunto de Maps contido no mapa configurado,
-		podendo ser possÌvel acessar suas chaves e valores.*/
+		podendo ser poss√≠vel acessar suas chaves e valores.*/
 		System.out.println("Mostrando Chave-Valor dos elementos do Map: ");
 		for(Map.Entry<Integer, String> entrada: mapaDB.entrySet()){
 			System.out.println(entrada.getKey() + " "+entrada.getValue());
@@ -31,18 +31,18 @@ public class ExecutaOperacoesMap {
 		
 		System.out.println("Verifica se a Chave 1 existe no mapa");
 		if(mapaDB.containsKey(1)){
-			System.out.println("O Banco de dados com chave 1 est· no mapa!");
+			System.out.println("O Banco de dados com chave 1 est√° no mapa!");
 		}else{
-			System.out.println("O Banco de dados com chave 1 n„o est· no mapa!");
+			System.out.println("O Banco de dados com chave 1 n√£o est√° no mapa!");
 		}
 		System.out.println("------------------------------------------------------");
 		
 		mapaDB.put(4, "Redis");
 		System.out.println("Verifica se o Valor Redis existe no mapa");
 		if(mapaDB.containsValue("Redis")){
-			System.out.println("O Banco de dados Redis est· no mapa!");
+			System.out.println("O Banco de dados Redis est√° no mapa!");
 		}else{
-			System.out.println("O Banco de dados Redis n„o est· no mapa!");
+			System.out.println("O Banco de dados Redis n√£o est√° no mapa!");
 		}
 		System.out.println(mapaDB);
 		System.out.println("------------------------------------------------------");
