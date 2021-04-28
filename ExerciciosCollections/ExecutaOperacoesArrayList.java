@@ -22,7 +22,7 @@ public class ExecutaOperacoesArrayList {
 		}
 		System.out.println("--------------------------------------------------------");
 		
-		System.out.println("Adicionando elementos na primeira e penultima posiÁ„o do Arraylist: ");
+		System.out.println("Adicionando elementos na primeira e penultima posi√ß√£o do Arraylist: ");
 		cores.add(0,"Rosa");
 		cores.add(5,"Laranja");
 		System.out.println(cores);
@@ -42,18 +42,18 @@ public class ExecutaOperacoesArrayList {
 		System.out.println(cores);
 		System.out.println("--------------------------------------------------------");
 		
-		System.out.println("Verificar se o elemento Cinza est· no ArrayList: ");
+		System.out.println("Verificar se o elemento Cinza est√° no ArrayList: ");
 		if(cores.contains("Cinza")){
-			System.out.println("Cinza est· no ArrayList de cores!");
+			System.out.println("Cinza est√° no ArrayList de cores!");
 		}else{
-			System.out.println("Cinza n„o est· no Arraylist de cores!");
+			System.out.println("Cinza n√£o est√° no Arraylist de cores!");
 		}
 		
-		System.out.println("Verificar se o elemento Verde est· no ArrayList: ");
+		System.out.println("Verificar se o elemento Verde est√° no ArrayList: ");
 		if(cores.contains("Verde")){
-			System.out.println("Verde est· no ArrayList de cores!");
+			System.out.println("Verde est√° no ArrayList de cores!");
 		}else{
-			System.out.println("Verde n„o est· no Arraylist de cores!");
+			System.out.println("Verde n√£o est√° no Arraylist de cores!");
 		}
 		System.out.println("--------------------------------------------------------");
 		
