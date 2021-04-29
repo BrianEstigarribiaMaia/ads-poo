@@ -1,4 +1,4 @@
-package br.com.ftec.poo.exercicos.polimorfismo;
+package br.com.ftec.poo.exercicios.polimorfismo;
 
 public class Normal extends Ingresso{
 
