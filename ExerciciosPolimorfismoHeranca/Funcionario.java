@@ -1,4 +1,4 @@
-package br.com.ftec.poo.exercicos.polimorfismo;
+package br.com.ftec.poo.exercicios.polimorfismo;
 
 public class Funcionario {
 
@@ -13,6 +13,6 @@ public class Funcionario {
 	}
 
 	public void exibirDados(){
-		System.out.println("Dados do Funcio·rio");
+		System.out.println("Dados do Funcio√°rio");
 	}
 }
