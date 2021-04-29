@@ -1,4 +1,4 @@
-package br.com.ftec.poo.exercicos.polimorfismo;
+package br.com.ftec.poo.exercicios.polimorfismo;
 
 import java.util.Scanner;
 
@@ -12,9 +12,9 @@ public class ExecutaIngresso {
 			System.out.println("Digite o tipo de Ingresso que deseja 1 - VIP, 2 - NORMAL");
 			opcao = ler.nextInt();
 			if(opcao > 2){
-				System.out.println("Opção Invalida! Escolha Entre 1 e 2");
+				System.out.println("OpÃ§Ã£o Invalida! Escolha Entre 1 e 2");
 			}else if(opcao < 0){
-				System.out.println("Opção Invalida! Somente aceita numeros positivos.");
+				System.out.println("OpÃ§Ã£o Invalida! Somente aceita numeros positivos.");
 			}else{
 				switch(opcao){
 				case 1:
