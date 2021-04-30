@@ -8,7 +8,7 @@ public class Aniversario extends CartaoMensagem{
 
 	@Override
 	public void mostrarMensagem() {
-		System.out.println("Feliz anivers·rio "+getDestinatario());
+		System.out.println("Feliz anivers√°rio "+getDestinatario());
 		
 	}
 
