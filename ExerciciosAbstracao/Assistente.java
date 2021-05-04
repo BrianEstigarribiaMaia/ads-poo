@@ -13,7 +13,7 @@ public class Assistente extends Funcionario{
 	}
 
 	public String toString(){
-		String texto = "Nome: "+nome+ "\nCódigo:" +codigo+ "\nSalario Base: "+salarioBase;
+		String texto = "Nome: "+nome+ "\nCÃ³digo:" +codigo+ "\nSalario Base: "+salarioBase;
 		return texto;
 	}
 }
