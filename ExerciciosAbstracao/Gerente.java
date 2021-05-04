@@ -1,15 +1,15 @@
 package br.com.ftec.poo.exercicios.abstracao;
 
-public class Assistente extends Funcionario{
+public class Gerente extends Funcionario{
 
-	public Assistente(String nome, int codigo, double salarioBase) {
+	public Gerente(String nome, int codigo, double salarioBase) {
 		super(nome, codigo, salarioBase);
 	}
 
 	@Override
 	double calcularSalario() {
-		double salarioAssistente = salarioBase;
-		return salarioAssistente;
+		double salarioGerente = salarioBase * 2;
+		return salarioGerente;
 	}
 
 	public String toString(){
