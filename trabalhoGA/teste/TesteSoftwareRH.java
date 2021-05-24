@@ -1,11 +1,11 @@
-package br.com.ftec.poo.trabalhoga;
+package br.com.ftec.poo.trabalhoga.teste;
 
 public class TesteSoftwareRH {
 
 	public static void main(String[] args) {
 		RelatorioSalarial relatorio = new RelatorioSalarial();
 		
-		Testador testador =  new Testador("Jo„o", "TES3434", 2000, 100);
+		Testador testador =  new Testador("Jo√£o", "TES3434", 2000, 100);
 		relatorio.registrarSalario(testador);
 		System.out.println("Salario do testador: "+ testador.salarioMensal());
 		
@@ -25,7 +25,7 @@ public class TesteSoftwareRH {
 		relatorio.registrarSalario(tesoureiro);
 		System.out.println("Salario do tesoureiro: "+ tesoureiro.salarioMensal());
 
-		System.out.println("Valor total de sal·rios È " + relatorio.getSomatorioSalario() );
+		System.out.println("Valor total de sal√°rios √© " + relatorio.getSomatorioSalario() );
 	}
 
 }
